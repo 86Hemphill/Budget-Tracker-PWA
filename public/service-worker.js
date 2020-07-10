@@ -1,7 +1,7 @@
 console.log("Hello from your service worker!");
 
 // Declacre Files to Cache
-const FILES_TO_CACHE = [];
+const FILES_TO_CACHE = ["/", "/index.html", "index.js", "favicon.ico"];
 
 // Declare Cache Names
 const CACHE_NAME = "static-cache-v2";
